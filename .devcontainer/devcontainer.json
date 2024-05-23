@@ -1,7 +1,5 @@
 {
-    "name": "Ubuntu Bionic",
-    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-18.04",
-    "forwardPorts": [8000],
-    "postCreateCommand": "bash .devcontainer/setup.sh"
-  }
-  
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-20.04",
+  "forwardPorts": [8000],
+  "postCreateCommand": "bash .devcontainer/setup.sh"
+}
